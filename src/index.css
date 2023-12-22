@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+.active-link{
+    @apply bg-red-500 text-accent
+}
